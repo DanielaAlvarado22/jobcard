@@ -11,14 +11,14 @@ export function ComponenteOne(){
     const emp: EmployeeInfo = {
         ID: '15209494',
         name:'Daniela Alvarado',
-        position:'Software Engeniere',
+        position:'Software Engineer',
         email:'15209494@modelo.edu.mx',
         phone: '9992380243',
         img:'',
         qr:'',
-        joined: new Date("2019-01-16"),
-        expire: new Date("2024-03-20"),
-        dob: new Date("1995-02-15")
+        joined:'2020-09-26',
+        expire: '2024-07-15',
+        dob: '25-03-2002',
 
     }
 

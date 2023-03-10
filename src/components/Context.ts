@@ -10,7 +10,7 @@ export const Info = createContext<EmployeeInfo>({
     phone: '',
     img:'',
     qr: '',
-    joined: new Date(),
-    expire: new Date(),
-    dob: new Date()
+    joined: '',
+    expire: '',
+    dob: '',
 })
