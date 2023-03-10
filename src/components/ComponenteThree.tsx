@@ -1,12 +1,17 @@
+
 // @ts-ignore
 import { EmployeeInfo } from "./Card.ts";
 // @ts-ignore
 import { Info } from "./Context.ts";
 import React, { useContext } from "react";
 
+
+
 export function ComponenteThree() {
-  const { ID, name, position, email, phone, img, qr, joined, expire, dob } =
+  const { ID, name, position, email, phone, img,joined, expire, dob } =
     useContext<EmployeeInfo>(Info);
+
+    
 
   return (
     <div className="card">
@@ -37,7 +42,7 @@ export function ComponenteThree() {
         <div>
           <label>QR</label>
           <br></br>
-          <img className="img" src={qr} alt="" />
+          <img className='img'src="/images/qr.png" alt=""/>
         </div>
       </div>
     </div>

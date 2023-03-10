@@ -5,7 +5,6 @@ export interface EmployeeInfo{
     email: string,
     phone: string,
     img: string,
-    qr: string,
     joined: Date,
     expire: Date,
     dob: Date,

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://4kwallpapers.com/images/walls/thumbs_2t/9771.jpg");
+  background-image: url("https://i.pinimg.com/originals/01/98/ec/0198ec17e6c6fa9740d64f054b7c014d.jpg");
   background-size: cover;
 }
 
@@ -15,7 +15,7 @@ code {
 }
 
 .card{
-  box-shadow: 4px 8px 16px 0 black;
+  box-shadow: 4px 4px 8px 0 rgb(23, 22, 22);
   width: 70%;
   margin: auto;
   padding: 2rem;
@@ -24,21 +24,17 @@ code {
   text-align: center;
 }
 
-.imgPos{
-  display: flex;
-  align-items: start;
-}
-
-.imgPosDos{
-  display: flex;
-  align-items: end;
-}
-
 .img {
   width: 100%;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 5px 5px;
   align-self: center;
 
+}
+
+.imgPos{
+  /* border: 3px blue solid; */
+  align-items: center;
+  display: flex;
 }
 
 .txt-conteiner{

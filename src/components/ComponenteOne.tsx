@@ -15,7 +15,6 @@ export function ComponenteOne(){
         email:'15209494@modelo.edu.mx',
         phone: '9992380243',
         img:'',
-        qr:'',
         joined:'2020-09-26',
         expire: '2024-07-15',
         dob: '25-03-2002',
